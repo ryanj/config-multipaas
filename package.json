@@ -1,6 +1,6 @@
 {
   "name": "config-multipaas",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "SOLVING CLOUD PLATFORM CONFIGS ONCE AND FOR ALL",
   "main": "index.js",
   "scripts": {
