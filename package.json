@@ -1,6 +1,6 @@
 {
   "name": "config-multipaas",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "SOLVING CLOUD PLATFORM CONFIGS ONCE AND FOR ALL",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,8 @@
     "config",
     "paas",
     "openshift",
-    "heroku"
+    "heroku",
+    "configuration"
   ],
   "author": "ryanj",
   "license": "MIT",
@@ -26,6 +27,7 @@
   },
   "homepage": "https://github.com/ryanj/config-multipaas",
   "dependencies": {
+    "cloud-env": "0.0.2",
     "config-chain": "^1.1.8"
   }
 }

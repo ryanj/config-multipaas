@@ -1,15 +1,12 @@
 var cc            = require('config-chain'),
-    path          = require('path'),
-    cloud_configs = require(path.join(__dirname,'cloud-defaults.js'))
+    cloud_env     = require('cloud-env')
 
 //return config-chain, with cloud config defaults included
 var exports = module.exports = function () {
   var args = [].slice.call(arguments)
     , conf = new cc.ConfigChain()
 
-  args.push(cc.env('OPENSHIFT_NODEJS_'))
-  args.push(cc.env('OPENSHIFT_'))
-  args.push(cloud_configs)
+  args.push(cloud_env)
 
   while(args.length) {
     var a = args.shift()
