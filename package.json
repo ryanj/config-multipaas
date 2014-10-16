@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/ryanj/config-multipaas",
   "dependencies": {
-    "cloud-env": "0.0.2",
+    "cloud-env": "^0.0.3",
     "config-chain": "^1.1.8"
   }
 }

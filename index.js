@@ -6,6 +6,8 @@ var exports = module.exports = function () {
   var args = [].slice.call(arguments)
     , conf = new cc.ConfigChain()
 
+  args.push(cc.env('OPENSHIFT_NODEJS_'))
+  args.push(cc.env('OPENSHIFT_'))
   args.push(cloud_env)
 
   while(args.length) {
