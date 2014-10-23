@@ -1,10 +1,8 @@
-#config-multipaas
+#config-multipaas [![npm version](http://img.shields.io/npm/v/config-multipaas.svg)](https://www.npmjs.org/package/config-multipaas) [![Dependency Check](http://img.shields.io/david/ryanj/config-multipaas.svg)](https://david-dm.org/ryanj/config-multipaas) [![monthly downloads](http://img.shields.io/npm/dm/config-multipaas.svg)](https://www.npmjs.org/package/config-multipaas) [![license](http://img.shields.io/npm/l/config-multipaas.svg)](https://www.npmjs.org/package/config-multipaas)
 
 [CONFIG-CHAIN](https://github.com/dominictarr/config-chain) W/ [CLOUD-ENV](https://github.com/ryanj/cloud-env/) DEFAULTS!
 
 ![MultiPaaS](http://i.imgur.com/fCi6YX6.png)
-
-[![Dependency Check](https://david-dm.org/ryanj/config-multipaas.png)](https://david-dm.org/ryanj/config-multipaas)
 
 [Config-multiPaaS](https://github.com/ryanj/config-multipaas) is a [`config-chain`](https://github.com/dominictarr/config-chain) wrapper that includes automatic support for several popular cloud deployment targets ([OpenShift](http://openshift.com/), [Heroku](http://heroku.com/)).
 
