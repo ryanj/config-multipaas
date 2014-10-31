@@ -1,6 +1,4 @@
-#config-multipaas [![npm version](http://img.shields.io/npm/v/config-multipaas.svg)](https://www.npmjs.org/package/config-multipaas) [![Dependency Check](http://img.shields.io/david/ryanj/config-multipaas.svg)](https://david-dm.org/ryanj/config-multipaas) [![monthly downloads](http://img.shields.io/npm/dm/config-multipaas.svg)](https://www.npmjs.org/package/config-multipaas) [![license](http://img.shields.io/npm/l/config-multipaas.svg)](https://www.npmjs.org/package/config-multipaas)
-
-[![npm stats](https://nodei.co/npm/config-multipaas.png?downloads=true&stars=true)](https://www.npmjs.org/package/config-multipaas)
+#config-multipaas [![npm version](http://img.shields.io/npm/v/config-multipaas.svg)](https://www.npmjs.org/package/config-multipaas) [![Build Status](http://img.shields.io/travis/ryanj/config-multipaas.svg)](https://travis-ci.org/ryanj/config-multipaas)
 
 [CONFIG-CHAIN](https://github.com/dominictarr/config-chain) W/ [CLOUD-ENV](https://github.com/ryanj/cloud-env/) DEFAULTS!
 
@@ -9,6 +7,10 @@
 ![MultiPaaS](http://i.imgur.com/fCi6YX6.png)
 
 It works by [checking the system environment for known configuration strings](https://github.com/ryanj/cloud-env/), normalizing the results into [a vendor-neutral list](#configuration-strings).
+
+[![npm stats](https://nodei.co/npm/config-multipaas.png?downloads=true&stars=true)](https://www.npmjs.org/package/config-multipaas)
+
+[![Dependency Check](http://img.shields.io/david/ryanj/config-multipaas.svg)](https://david-dm.org/ryanj/config-multipaas) [![monthly downloads](http://img.shields.io/npm/dm/config-multipaas.svg)](https://www.npmjs.org/package/config-multipaas) [![license](http://img.shields.io/npm/l/config-multipaas.svg)](https://www.npmjs.org/package/config-multipaas)
 
 ## Setup
 
