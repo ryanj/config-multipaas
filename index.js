@@ -14,7 +14,7 @@ var exports = module.exports = function () {
     var a = args.shift()
     if(a) conf.push
           ( 'string' === typeof a
-            ? json(a)
+            ? cc.json(a)
             : a )
   }
 
