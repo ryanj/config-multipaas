@@ -2,7 +2,7 @@
 
 [CONFIG-CHAIN](https://github.com/dominictarr/config-chain) W/ [CLOUD-ENV](https://github.com/ryanj/cloud-env/) DEFAULTS!
 
-[Config-multiPaaS](https://github.com/ryanj/config-multipaas) is a [`config-chain`](https://github.com/dominictarr/config-chain) wrapper that includes automatic support for several popular cloud deployment targets ([OpenShift](http://openshift.com/), [Heroku](http://heroku.com/)).
+[Config-multiPaaS](https://github.com/ryanj/config-multipaas) is a [`config-chain`](https://github.com/dominictarr/config-chain) wrapper that includes automatic support for several popular cloud deployment targets ([OpenShift](http://openshift.com/), [Heroku](http://heroku.com/), [Modulus](http://help.modulus.io/customer/portal/articles/1660583)).
 
 ![MultiPaaS](http://i.imgur.com/fCi6YX6.png)
 
