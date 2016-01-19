@@ -44,6 +44,7 @@ var exports = module.exports = function () {
     .add(cc.env('OPENSHIFT_'), 'openshift-env')
     .set('HOSTNAME', process.env.OPENSHIFT_APP_DNS, 'openshift-env')
     .add(filterundefs(cloud_env.defaults.cloud), 'cloud-defaults')
+    .add(filterundefs(cloud_env.defaults.v3), 'openshift-v3-defaults')
 }
 
 // Expose config-chain's interfaces via this module scope:
