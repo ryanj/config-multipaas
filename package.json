@@ -1,6 +1,6 @@
 {
   "name": "config-multipaas",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "SOLVING CLOUD PLATFORM CONFIGS ONCE AND FOR ALL",
   "main": "index.js",
   "scripts": {
@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/ryanj/config-multipaas",
   "dependencies": {
-    "cloud-env": "^0.2.1",
+    "cloud-env": "^0.2.2",
     "config-chain": "^1.1.10"
   }
 }
