@@ -2,11 +2,18 @@
 
 [CONFIG-CHAIN](https://github.com/dominictarr/config-chain) W/ [CLOUD-ENV](https://github.com/ryanj/cloud-env/) DEFAULTS!
 
-[Config-multiPaaS](https://github.com/ryanj/config-multipaas) is a [`config-chain`](https://github.com/dominictarr/config-chain) wrapper that includes automatic support for several popular cloud deployment targets ([OpenShift](http://openshift.com/), [Heroku](http://heroku.com/), [Modulus](http://help.modulus.io/customer/portal/articles/1660583)).
+**!!AUTOCONFIGURE JS CODE FOR USE ON ANY PLATFORM NODE!!**
 
 ![MultiPaaS](http://i.imgur.com/fCi6YX6.png)
 
-It works by [checking the system environment for known configuration strings](https://github.com/ryanj/cloud-env/), normalizing the results into [a vendor-neutral list](#configuration-strings).
+[Config-multiPaaS](https://github.com/ryanj/config-multipaas) is a [`config-chain`](https://github.com/dominictarr/config-chain) wrapper that includes autoconfiguration support for all major cloud hosting platforms and deployment targets:
+
+* [OpenShift](https://developers.openshift.com/languages/nodejs/environment-variables.html#listen)
+* [Heroku](https://devcenter.heroku.com/articles/dynos#web-dynos)
+* [Modulus](http://help.modulus.io/customer/portal/articles/1660583)
+* [CloudFoundry](http://docs.cloudfoundry.org/devguide/deploy-apps/environment-variable.html#PORT)
+
+It works by [checking the system environment for known configuration strings](https://github.com/ryanj/cloud-env/), normalizing the results into a [consistent list](#configuration-strings).
 
 [![npm stats](https://nodei.co/npm/config-multipaas.png?downloads=true&stars=true)](https://www.npmjs.org/package/config-multipaas)
 
