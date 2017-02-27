@@ -7,7 +7,7 @@
     "test": "tap test/"
   },
   "devDependencies": {
-    "tap": "^5.7.1"
+    "tap": "^10.2.2"
   },
   "repository": {
     "type": "git",
