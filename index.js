@@ -30,6 +30,10 @@ var exports = module.exports = function () {
   var args = [].slice.call(arguments)
     , conf = new cc.ConfigChain()
 
+  // app-components should be easy to find
+  conf.components = cloud_env.components
+  conf.component = cloud_env.component
+
   conf.get = get
   while(args.length) {
     var a = args.shift()
@@ -40,6 +44,7 @@ var exports = module.exports = function () {
   }
 
   return conf
+    .addEnv('COMPONENT_', 'app-components')
     .add(cc.env('OPENSHIFT_NODEJS_'), 'openshift-nodejs')
     .add(cc.env('OPENSHIFT_'), 'openshift-env')
     .add(filterundefs(cloud_env.defaults.openshift), 'v2-defaults')
@@ -50,3 +55,8 @@ var exports = module.exports = function () {
 // Expose config-chain's interfaces via this module scope:
 var cc_interfaces = ['find','parse','json','env','ConfigChain','on']
 cc_interfaces.forEach(function(func){ exports[func] = cc[func]})
+cc_interfaces.forEach(function(func){ module.exports[func] = cc[func]})
+exports['components'] = cloud_env.components;
+exports['component'] = cloud_env.component;
+module.exports['components'] = cloud_env.components;
+module.exports['component'] = cloud_env.component;

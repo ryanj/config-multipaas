@@ -1,14 +1,10 @@
 {
   "name": "config-multipaas",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "SOLVING CLOUD PLATFORM CONFIGS ONCE AND FOR ALL",
   "main": "index.js",
-  "scripts": {
-    "test": "tap test/"
-  },
-  "devDependencies": {
-    "tap": "^5.7.1"
-  },
+  "scripts": {},
+  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/ryanj/config-multipaas.git"
@@ -28,7 +24,7 @@
   },
   "homepage": "https://github.com/ryanj/config-multipaas",
   "dependencies": {
-    "cloud-env": "^0.2.2",
-    "config-chain": "^1.1.10"
+    "cloud-env": "^0.2.3",
+    "config-chain": "^1.1.11"
   }
 }
